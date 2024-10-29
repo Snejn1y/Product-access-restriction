@@ -1,0 +1,102 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* hk_access_for_mixtures
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-29 19:14+0000\n"
+"PO-Revision-Date: 2024-10-29 21:15+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: uk_UA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Generator: Poedit 3.3.2\n"
+
+#. module: hk_access_for_mixtures
+#: model:ir.model.fields,field_description:hk_access_for_mixtures.field_product_access__access_to_component
+msgid "Access to Component"
+msgstr "Доступ до компонента"
+
+#. module: hk_access_for_mixtures
+#: model:ir.model.fields,field_description:hk_access_for_mixtures.field_product_access__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: hk_access_for_mixtures
+#: model:ir.model.fields,field_description:hk_access_for_mixtures.field_product_access__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: hk_access_for_mixtures
+#: model:ir.model.fields,field_description:hk_access_for_mixtures.field_product_access__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: hk_access_for_mixtures
+#: model:ir.model.fields,field_description:hk_access_for_mixtures.field_product_access__groups
+msgid "Groups"
+msgstr "Групи"
+
+#. module: hk_access_for_mixtures
+#: model:ir.model.fields,field_description:hk_access_for_mixtures.field_mrp_production__hide_specification_page
+#: model:ir.model.fields,field_description:hk_access_for_mixtures.field_product_product__hide_specification_button
+#: model:ir.model.fields,field_description:hk_access_for_mixtures.field_product_template__hide_specification_button
+msgid "Hide Specification Button"
+msgstr "Приховати кнопку специфікації"
+
+#. module: hk_access_for_mixtures
+#: model:ir.model.fields,field_description:hk_access_for_mixtures.field_product_access__id
+msgid "ID"
+msgstr ""
+
+#. module: hk_access_for_mixtures
+#: model:ir.model.fields,field_description:hk_access_for_mixtures.field_product_access__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: hk_access_for_mixtures
+#: model:ir.model.fields,field_description:hk_access_for_mixtures.field_product_access__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: hk_access_for_mixtures
+#: model:ir.model.fields,field_description:hk_access_for_mixtures.field_product_access__name
+msgid "Name"
+msgstr "Назва"
+
+#. module: hk_access_for_mixtures
+#: model:ir.model,name:hk_access_for_mixtures.model_product_template
+msgid "Product"
+msgstr "Товар"
+
+#. module: hk_access_for_mixtures
+#: model:ir.model.fields,field_description:hk_access_for_mixtures.field_product_access__product_categories_for_access
+msgid "Product Categories for Access Restriction"
+msgstr "Категорії продуктів для заборони доступу"
+
+#. module: hk_access_for_mixtures
+#: model:ir.actions.act_window,name:hk_access_for_mixtures.product_access
+#: model:ir.ui.menu,name:hk_access_for_mixtures.menu_product_access
+#: model_terms:ir.ui.view,arch_db:hk_access_for_mixtures.product_access_view_tree
+msgid "Product access restriction"
+msgstr "Заборона доступу до продукту"
+
+#. module: hk_access_for_mixtures
+#: model:ir.model,name:hk_access_for_mixtures.model_mrp_production
+msgid "Production Order"
+msgstr "Замовлення на виробництво"
+
+#. module: hk_access_for_mixtures
+#: model:ir.model,name:hk_access_for_mixtures.model_product_access
+msgid "product.access"
+msgstr ""
+
+#. module: hk_access_for_mixtures
+#: model:res.groups,name:hk_access_for_mixtures.access_to_product_access_settings
+msgid "Доступ до налаштувань доступу до продуктів"
+msgstr ""

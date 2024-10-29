@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <record model="res.groups" id="access_to_product_access_settings">
+        <field name="name">Доступ до налаштувань доступу до продуктів</field>
+    </record>
+
+</odoo>

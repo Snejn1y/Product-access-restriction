@@ -1,0 +1,30 @@
+<odoo>
+
+    <record id="product_access_view_tree" model="ir.ui.view">
+        <field name="name">product_access.view.tree</field>
+        <field name="model">product.access</field>
+        <field name="arch" type="xml">
+            <tree string="Product access restriction" editable="bottom">
+                <field name="product_categories_for_access" widget="many2many_tags"/>
+                <field name="groups"/>
+                <field name="access_to_component"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="product_access" model="ir.actions.act_window">
+        <field name="name">Product access restriction</field>
+        <field name="res_model">product.access</field>
+        <field name="view_mode">tree</field>
+    </record>
+
+    <menuitem
+        id="menu_product_access"
+        name="Product access restriction"
+        parent="stock.menu_stock_config_settings"
+        action="product_access"
+        groups="access_to_product_access_settings,base.group_system"
+        sequence="100"
+    />
+
+</odoo>

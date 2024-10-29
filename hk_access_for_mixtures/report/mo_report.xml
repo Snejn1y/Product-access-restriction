@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="report_mrporder_inherit" inherit_id="mrp.report_mrporder">
+        <xpath expr="//div[@t-if='o.move_raw_ids']" position="attributes">
+            <attribute name="t-if">o.move_raw_ids and not o.hide_specification_page</attribute>
+        </xpath>
+    </template>
+</odoo>

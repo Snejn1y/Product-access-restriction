@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+
+    <record id="view_product_template_form_inherit_repair_hide_specification_button" model="ir.ui.view">
+        <field name="name">product.template.form.inherit.repair.hide_specification_button</field>
+        <field name="model">product.template</field>
+        <field name="inherit_id" ref="product.product_template_form_view"/>
+        <field name="arch" type="xml">
+            <xpath expr="//group[@name='group_general']/field[@name='uom_po_id']" position="after">
+                <field name="hide_specification_button" invisible="1"/>
+            </xpath>
+        </field>
+    </record>
+
+    <record id="product_template_form_view_bom_button_hide" model="ir.ui.view">
+        <field name="name">product.template.procurement_hide</field>
+        <field name="model">product.template</field>
+        <field name="inherit_id" ref="mrp.product_template_form_view_bom_button"/>
+        <field name="arch" type="xml">
+            <xpath expr="//button[@groups='mrp.group_mrp_user']" position="attributes">
+                <attribute name="invisible">hide_specification_button == True or type not in ['product', 'consu']</attribute>
+            </xpath>
+        </field>
+    </record>
+
+    <record id="product_product_form_view_bom_button_hide" model="ir.ui.view">
+        <field name="name">product.product.procurement_hide</field>
+        <field name="model">product.product</field>
+        <field name="inherit_id" ref="mrp.product_product_form_view_bom_button"/>
+        <field name="arch" type="xml">
+            <xpath expr="//button[@groups='mrp.group_mrp_user']" position="attributes">
+                <attribute name="invisible">hide_specification_button == True or type not in ['product', 'consu']</attribute>
+            </xpath>
+        </field>
+    </record>
+</odoo>
