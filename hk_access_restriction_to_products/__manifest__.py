@@ -1,5 +1,5 @@
 {
-    "name": "Control access to mixtures",
+    "name": "Control access restriction to product by category",
     "version": "17.0.1.0.0",
     "category": "Category",
     "license": "OPL-1",
